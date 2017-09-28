@@ -24,25 +24,25 @@ public class Enemy {
     
     private EnemyType getType(int c) throws Exception{
         switch(c){
-            case 20:
+            case 40:    //E3
                 return EnemyType.DOUBLE;
-            case 30:
+            case 43:    //G3
                 return EnemyType.FLYING;
-            case 40:
+            case 36:    //C3
                 return EnemyType.GROUND;
-            case 50:
+            case 48:    //C4
                 return EnemyType.MAGE_2;
-            case 60:
+            case 50:    //D4
                 return EnemyType.MAGE_3;
-            case 70:
+            case 52:    //E4
                 return EnemyType.MAGE_4;
-            case 80:
+            case 53:    //F4
                 return EnemyType.MAGE_5;
-            case 90:
+            case 55:    //G4
                 return EnemyType.MAGE_6;
-            case 100:
+            case 57:    //A4
                 return EnemyType.MAGE_7;
-            case 110:
+            case 59:    //B4
                 return EnemyType.MAGE_8;
         }
         throw new Exception("Error: Code [" + c + "] is not defined");
