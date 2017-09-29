@@ -24,6 +24,8 @@ public class MIDI2JSON {
         try {
             Sequence songFile = MidiSystem.getSequence(new File(args[0]));
             Song_Data data = new Song_Data(songFile);
+            JWriter output = new JWriter(data.getEnemyList(), args[1]);
+            output.write();
         } catch (Exception e) {
             e.printStackTrace();
         }

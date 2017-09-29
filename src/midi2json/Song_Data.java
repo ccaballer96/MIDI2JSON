@@ -55,38 +55,48 @@ public class Song_Data {
         beat patterns are stored there as well to reduce complexity.
          */
         List<Enemy> list = new ArrayList<>();
-        List<MidiEvent> listaOrdenada = new ArrayList<>();
-        long delta_ticks, last_event_ticks = 0;
-        long tick_us, delta_millis, timeMillis = 0;
-        boolean set_tempo = false;
         Track[] tracks = s.getTracks();
-        
-        for (int i = 0; i < tracks[0].size(); i++) {
-           listaOrdenada.add(tracks[0].get(i));
-        }
-        for (int j = 0; j < tracks[1].size(); j++){
-            listaOrdenada.add(tracks[1].get(j));
-        }
+        List<MidiEvent> listaOrdenada = mergeTracks(tracks[0], tracks[1]);
         Collections.sort(listaOrdenada, new Comparator<MidiEvent>() {
             @Override
             public int compare(MidiEvent e1, MidiEvent e2) {
                 return (int) (e1.getTick() - e2.getTick());
             }
         });
+        extractData(list, listaOrdenada);
 
-        for (/*MidiEvent event : listaOrdenada*/ int i = 0; i < tracks[0].size(); i++) {
-            MidiEvent event = tracks[0].get(i);
+        return list;
+    }
+
+    private List<MidiEvent> mergeTracks(Track a, Track b) {
+        List<MidiEvent> res = new ArrayList<>();
+        for (int i = 0; i < a.size(); i++) {
+            res.add(a.get(i));
+        }
+        for (int j = 0; j < b.size(); j++) {
+            res.add(b.get(j));
+        }
+        return res;
+    }
+
+    private void extractData(List<Enemy> el, List<MidiEvent> ml) {
+        long delta_ticks, last_event_ticks = 0;
+        long tick_us, delta_millis, time_millis = 0;
+        boolean boss = false;
+        for (MidiEvent event : ml) {
             if (event.getMessage() instanceof ShortMessage) {
                 ShortMessage msg = (ShortMessage) event.getMessage();
                 //Note events are stored in ShortMessages. Enemies' arrival time is based on NOTE_ON events timestamp.
                 if (ShortMessage.NOTE_ON == msg.getCommand()) {
                     try {
-                        list.add(new Enemy(/*msg.getData1()*/ 50, timeMillis, -1));
+                        if (msg.getData1() == 64) { //E5 to enable boss section
+                            boss = true;
+                        } else {
+                            el.add(new Enemy(msg.getData1(), time_millis, -1, boss));
+                        }
                     } catch (Exception e) {
-                        System.out.println(e.getMessage() + "\n");
-                        e.printStackTrace();
+                        System.out.println(e.getMessage());
                     }
-                    set_tempo = false;
                 }
             }
             if (event.getMessage() instanceof MetaMessage) {
@@ -96,7 +106,6 @@ public class Song_Data {
                     //Tempo value is extracted from byte[] data and converted to int.
                     tempo = (((msg.getData()[0] & 0xFF) << 16) | ((msg.getData()[1] & 0xFF) << 8) | ((msg.getData()[2] & 0xFF)));
                     bpm = 60000000 / tempo;
-                    set_tempo = true;
                 }
             }
             /*
@@ -104,18 +113,10 @@ public class Song_Data {
             Time is given in milliseconds.
              */
             tick_us = 60000000 / (bpm * ppq);
-            System.out.println(tick_us);
             delta_ticks = event.getTick() - last_event_ticks;
             last_event_ticks = event.getTick();
-            delta_millis = (delta_ticks * tick_us)/1000;
-            System.out.println(delta_millis);
-            timeMillis += delta_millis;
-            if(set_tempo){
-                System.out.print(new SimpleDateFormat("mm:ss:SSS").format(new Date((long) timeMillis)));
-                System.out.println(" SET_TEMPO " + bpm);
-            }
-            else System.out.println(new SimpleDateFormat("mm:ss:SSS").format(new Date((long) timeMillis)));
+            delta_millis = (delta_ticks * tick_us) / 1000;
+            time_millis += delta_millis;
         }
-        return list;
     }
 }
