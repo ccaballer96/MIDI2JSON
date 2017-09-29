@@ -1,0 +1,1843 @@
+[
+  {
+    "time": 0,
+    "marker_time": -1,
+    "type": "MAGE_2",
+    "boss": false,
+    "marker": false
+  },
+  {
+    "time": 5083,
+    "marker_time": -1,
+    "type": "FLYING",
+    "boss": false,
+    "marker": false
+  },
+  {
+    "time": 5168,
+    "marker_time": -1,
+    "type": "MAGE_4",
+    "boss": false,
+    "marker": false
+  },
+  {
+    "time": 5284,
+    "marker_time": -1,
+    "type": "MAGE_2",
+    "boss": false,
+    "marker": false
+  },
+  {
+    "time": 5597,
+    "marker_time": -1,
+    "type": "MAGE_3",
+    "boss": false,
+    "marker": false
+  },
+  {
+    "time": 6441,
+    "marker_time": -1,
+    "type": "GROUND",
+    "boss": false,
+    "marker": false
+  },
+  {
+    "time": 6778,
+    "marker_time": -1,
+    "type": "MAGE_3",
+    "boss": false,
+    "marker": false
+  },
+  {
+    "time": 7803,
+    "marker_time": -1,
+    "type": "MAGE_3",
+    "boss": false,
+    "marker": false
+  },
+  {
+    "time": 7847,
+    "marker_time": -1,
+    "type": "MAGE_7",
+    "boss": false,
+    "marker": false
+  },
+  {
+    "time": 7995,
+    "marker_time": -1,
+    "type": "MAGE_7",
+    "boss": false,
+    "marker": false
+  },
+  {
+    "time": 9189,
+    "marker_time": -1,
+    "type": "MAGE_3",
+    "boss": false,
+    "marker": false
+  },
+  {
+    "time": 9588,
+    "marker_time": -1,
+    "type": "MAGE_2",
+    "boss": false,
+    "marker": false
+  },
+  {
+    "time": 9878,
+    "marker_time": -1,
+    "type": "MAGE_7",
+    "boss": false,
+    "marker": false
+  },
+  {
+    "time": 10458,
+    "marker_time": -1,
+    "type": "MAGE_8",
+    "boss": false,
+    "marker": false
+  },
+  {
+    "time": 10458,
+    "marker_time": -1,
+    "type": "DOUBLE",
+    "boss": false,
+    "marker": false
+  },
+  {
+    "time": 10838,
+    "marker_time": -1,
+    "type": "MAGE_7",
+    "boss": false,
+    "marker": false
+  },
+  {
+    "time": 11081,
+    "marker_time": -1,
+    "type": "MAGE_8",
+    "boss": false,
+    "marker": false
+  },
+  {
+    "time": 11461,
+    "marker_time": -1,
+    "type": "MAGE_8",
+    "boss": false,
+    "marker": false
+  },
+  {
+    "time": 11616,
+    "marker_time": -1,
+    "type": "FLYING",
+    "boss": false,
+    "marker": false
+  },
+  {
+    "time": 13746,
+    "marker_time": -1,
+    "type": "DOUBLE",
+    "boss": false,
+    "marker": false
+  },
+  {
+    "time": 14357,
+    "marker_time": -1,
+    "type": "GROUND",
+    "boss": false,
+    "marker": false
+  },
+  {
+    "time": 14520,
+    "marker_time": -1,
+    "type": "DOUBLE",
+    "boss": false,
+    "marker": false
+  },
+  {
+    "time": 14576,
+    "marker_time": -1,
+    "type": "MAGE_2",
+    "boss": false,
+    "marker": false
+  },
+  {
+    "time": 14922,
+    "marker_time": -1,
+    "type": "MAGE_4",
+    "boss": false,
+    "marker": false
+  },
+  {
+    "time": 15701,
+    "marker_time": -1,
+    "type": "DOUBLE",
+    "boss": false,
+    "marker": false
+  },
+  {
+    "time": 16094,
+    "marker_time": -1,
+    "type": "MAGE_7",
+    "boss": false,
+    "marker": false
+  },
+  {
+    "time": 16263,
+    "marker_time": -1,
+    "type": "MAGE_8",
+    "boss": false,
+    "marker": false
+  },
+  {
+    "time": 17113,
+    "marker_time": -1,
+    "type": "MAGE_7",
+    "boss": false,
+    "marker": false
+  },
+  {
+    "time": 17134,
+    "marker_time": -1,
+    "type": "MAGE_7",
+    "boss": false,
+    "marker": false
+  },
+  {
+    "time": 17435,
+    "marker_time": -1,
+    "type": "MAGE_3",
+    "boss": false,
+    "marker": false
+  },
+  {
+    "time": 18567,
+    "marker_time": -1,
+    "type": "MAGE_8",
+    "boss": false,
+    "marker": false
+  },
+  {
+    "time": 18585,
+    "marker_time": -1,
+    "type": "MAGE_4",
+    "boss": false,
+    "marker": false
+  },
+  {
+    "time": 19472,
+    "marker_time": -1,
+    "type": "MAGE_4",
+    "boss": false,
+    "marker": false
+  },
+  {
+    "time": 19647,
+    "marker_time": -1,
+    "type": "MAGE_3",
+    "boss": false,
+    "marker": false
+  },
+  {
+    "time": 20498,
+    "marker_time": -1,
+    "type": "MAGE_4",
+    "boss": false,
+    "marker": false
+  },
+  {
+    "time": 20792,
+    "marker_time": -1,
+    "type": "MAGE_8",
+    "boss": false,
+    "marker": false
+  },
+  {
+    "time": 22910,
+    "marker_time": -1,
+    "type": "GROUND",
+    "boss": false,
+    "marker": false
+  },
+  {
+    "time": 23661,
+    "marker_time": -1,
+    "type": "FLYING",
+    "boss": false,
+    "marker": false
+  },
+  {
+    "time": 23788,
+    "marker_time": -1,
+    "type": "FLYING",
+    "boss": false,
+    "marker": false
+  },
+  {
+    "time": 23881,
+    "marker_time": -1,
+    "type": "MAGE_4",
+    "boss": false,
+    "marker": false
+  },
+  {
+    "time": 24152,
+    "marker_time": -1,
+    "type": "DOUBLE",
+    "boss": false,
+    "marker": false
+  },
+  {
+    "time": 24391,
+    "marker_time": -1,
+    "type": "DOUBLE",
+    "boss": false,
+    "marker": false
+  },
+  {
+    "time": 25450,
+    "marker_time": -1,
+    "type": "FLYING",
+    "boss": false,
+    "marker": false
+  },
+  {
+    "time": 25987,
+    "marker_time": -1,
+    "type": "DOUBLE",
+    "boss": false,
+    "marker": false
+  },
+  {
+    "time": 26113,
+    "marker_time": -1,
+    "type": "MAGE_7",
+    "boss": false,
+    "marker": false
+  },
+  {
+    "time": 26220,
+    "marker_time": -1,
+    "type": "FLYING",
+    "boss": false,
+    "marker": false
+  },
+  {
+    "time": 26519,
+    "marker_time": -1,
+    "type": "GROUND",
+    "boss": false,
+    "marker": false
+  },
+  {
+    "time": 26712,
+    "marker_time": -1,
+    "type": "MAGE_3",
+    "boss": false,
+    "marker": false
+  },
+  {
+    "time": 27292,
+    "marker_time": -1,
+    "type": "DOUBLE",
+    "boss": false,
+    "marker": false
+  },
+  {
+    "time": 27292,
+    "marker_time": -1,
+    "type": "MAGE_4",
+    "boss": false,
+    "marker": false
+  },
+  {
+    "time": 27654,
+    "marker_time": -1,
+    "type": "GROUND",
+    "boss": false,
+    "marker": false
+  },
+  {
+    "time": 27872,
+    "marker_time": -1,
+    "type": "DOUBLE",
+    "boss": false,
+    "marker": false
+  },
+  {
+    "time": 27992,
+    "marker_time": -1,
+    "type": "DOUBLE",
+    "boss": false,
+    "marker": false
+  },
+  {
+    "time": 28982,
+    "marker_time": -1,
+    "type": "GROUND",
+    "boss": false,
+    "marker": false
+  },
+  {
+    "time": 29323,
+    "marker_time": -1,
+    "type": "DOUBLE",
+    "boss": false,
+    "marker": false
+  },
+  {
+    "time": 29643,
+    "marker_time": -1,
+    "type": "MAGE_5",
+    "boss": false,
+    "marker": false
+  },
+  {
+    "time": 29972,
+    "marker_time": -1,
+    "type": "FLYING",
+    "boss": false,
+    "marker": false
+  },
+  {
+    "time": 30528,
+    "marker_time": -1,
+    "type": "GROUND",
+    "boss": false,
+    "marker": false
+  },
+  {
+    "time": 31064,
+    "marker_time": -1,
+    "type": "MAGE_7",
+    "boss": false,
+    "marker": false
+  },
+  {
+    "time": 31717,
+    "marker_time": -1,
+    "type": "MAGE_4",
+    "boss": false,
+    "marker": false
+  },
+  {
+    "time": 32225,
+    "marker_time": -1,
+    "type": "DOUBLE",
+    "boss": false,
+    "marker": false
+  },
+  {
+    "time": 32950,
+    "marker_time": -1,
+    "type": "MAGE_7",
+    "boss": false,
+    "marker": false
+  },
+  {
+    "time": 33030,
+    "marker_time": -1,
+    "type": "FLYING",
+    "boss": false,
+    "marker": false
+  },
+  {
+    "time": 33170,
+    "marker_time": -1,
+    "type": "FLYING",
+    "boss": false,
+    "marker": false
+  },
+  {
+    "time": 33455,
+    "marker_time": -1,
+    "type": "MAGE_5",
+    "boss": false,
+    "marker": false
+  },
+  {
+    "time": 34648,
+    "marker_time": -1,
+    "type": "MAGE_4",
+    "boss": false,
+    "marker": false
+  },
+  {
+    "time": 35264,
+    "marker_time": -1,
+    "type": "GROUND",
+    "boss": false,
+    "marker": false
+  },
+  {
+    "time": 35376,
+    "marker_time": -1,
+    "type": "MAGE_3",
+    "boss": false,
+    "marker": false
+  },
+  {
+    "time": 35535,
+    "marker_time": -1,
+    "type": "MAGE_4",
+    "boss": false,
+    "marker": false
+  },
+  {
+    "time": 35802,
+    "marker_time": -1,
+    "type": "MAGE_4",
+    "boss": false,
+    "marker": false
+  },
+  {
+    "time": 35999,
+    "marker_time": -1,
+    "type": "MAGE_7",
+    "boss": false,
+    "marker": false
+  },
+  {
+    "time": 36507,
+    "marker_time": -1,
+    "type": "MAGE_5",
+    "boss": false,
+    "marker": false
+  },
+  {
+    "time": 36579,
+    "marker_time": -1,
+    "type": "MAGE_4",
+    "boss": false,
+    "marker": false
+  },
+  {
+    "time": 36924,
+    "marker_time": -1,
+    "type": "DOUBLE",
+    "boss": false,
+    "marker": false
+  },
+  {
+    "time": 37159,
+    "marker_time": -1,
+    "type": "GROUND",
+    "boss": false,
+    "marker": false
+  },
+  {
+    "time": 37274,
+    "marker_time": -1,
+    "type": "MAGE_4",
+    "boss": false,
+    "marker": false
+  },
+  {
+    "time": 38320,
+    "marker_time": -1,
+    "type": "MAGE_3",
+    "boss": false,
+    "marker": false
+  },
+  {
+    "time": 39044,
+    "marker_time": 32400,
+    "type": "MAGE_3",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 39297,
+    "marker_time": 32640,
+    "type": "DOUBLE",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 39875,
+    "marker_time": 33000,
+    "type": "MAGE_2",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 40314,
+    "marker_time": 33360,
+    "type": "GROUND",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 40494,
+    "marker_time": 33600,
+    "type": "MAGE_7",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 40640,
+    "marker_time": 33960,
+    "type": "GROUND",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 41512,
+    "marker_time": 34320,
+    "type": "MAGE_4",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 41786,
+    "marker_time": 34800,
+    "type": "MAGE_5",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 42093,
+    "marker_time": 34920,
+    "type": "MAGE_5",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 42238,
+    "marker_time": 35040,
+    "type": "MAGE_3",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 42448,
+    "marker_time": 35280,
+    "type": "MAGE_3",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 42728,
+    "marker_time": 35520,
+    "type": "MAGE_2",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 42963,
+    "marker_time": 36000,
+    "type": "MAGE_8",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 43975,
+    "marker_time": 36720,
+    "type": "MAGE_5",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 44414,
+    "marker_time": 36840,
+    "type": "DOUBLE",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 44559,
+    "marker_time": 36960,
+    "type": "MAGE_3",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 44773,
+    "marker_time": 37200,
+    "type": "MAGE_2",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 45073,
+    "marker_time": 37440,
+    "type": "MAGE_8",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 45284,
+    "marker_time": 37680,
+    "type": "MAGE_8",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 45825,
+    "marker_time": 37920,
+    "type": "MAGE_7",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 45864,
+    "marker_time": 38160,
+    "type": "MAGE_2",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 46204,
+    "marker_time": 38400,
+    "type": "MAGE_7",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 46443,
+    "marker_time": 38430,
+    "type": "MAGE_3",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 47484,
+    "marker_time": 39600,
+    "type": "DOUBLE",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 47896,
+    "marker_time": 39840,
+    "type": "MAGE_5",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 48186,
+    "marker_time": 40080,
+    "type": "MAGE_5",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 48647,
+    "marker_time": 40320,
+    "type": "MAGE_5",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 49201,
+    "marker_time": 40800,
+    "type": "MAGE_7",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 49636,
+    "marker_time": 41280,
+    "type": "MAGE_5",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 50335,
+    "marker_time": 41760,
+    "type": "GROUND",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 50797,
+    "marker_time": 42480,
+    "type": "FLYING",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 51378,
+    "marker_time": 42600,
+    "type": "MAGE_3",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 51633,
+    "marker_time": 42720,
+    "type": "MAGE_3",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 51745,
+    "marker_time": 42960,
+    "type": "MAGE_4",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 52039,
+    "marker_time": 43200,
+    "type": "DOUBLE",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 52246,
+    "marker_time": 43680,
+    "type": "MAGE_5",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 52948,
+    "marker_time": 43920,
+    "type": "MAGE_8",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 53316,
+    "marker_time": 44160,
+    "type": "MAGE_2",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 53696,
+    "marker_time": 44640,
+    "type": "DOUBLE",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 54255,
+    "marker_time": 45120,
+    "type": "MAGE_5",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 54888,
+    "marker_time": 45600,
+    "type": "DOUBLE",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 55478,
+    "marker_time": 46080,
+    "type": "DOUBLE",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 57837,
+    "marker_time": 50160,
+    "type": "MAGE_4",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 60673,
+    "marker_time": 50280,
+    "type": "MAGE_3",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 60950,
+    "marker_time": 50400,
+    "type": "MAGE_2",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 61089,
+    "marker_time": 50640,
+    "type": "DOUBLE",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 61385,
+    "marker_time": 50861,
+    "type": "DOUBLE",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 62685,
+    "marker_time": 52080,
+    "type": "MAGE_4",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 62995,
+    "marker_time": 52200,
+    "type": "GROUND",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 63283,
+    "marker_time": 52320,
+    "type": "MAGE_3",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 63400,
+    "marker_time": 52560,
+    "type": "MAGE_7",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 63685,
+    "marker_time": 52800,
+    "type": "GROUND",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 64630,
+    "marker_time": 53760,
+    "type": "DOUBLE",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 65590,
+    "marker_time": 54240,
+    "type": "MAGE_8",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 65760,
+    "marker_time": 54480,
+    "type": "MAGE_8",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 66023,
+    "marker_time": 54720,
+    "type": "MAGE_7",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 66345,
+    "marker_time": 54960,
+    "type": "MAGE_8",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 66624,
+    "marker_time": 55200,
+    "type": "MAGE_7",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 66935,
+    "marker_time": 55440,
+    "type": "MAGE_2",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 67209,
+    "marker_time": 55680,
+    "type": "MAGE_4",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 67345,
+    "marker_time": 56400,
+    "type": "MAGE_3",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 68255,
+    "marker_time": 56520,
+    "type": "MAGE_2",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 68484,
+    "marker_time": 56640,
+    "type": "MAGE_7",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 69375,
+    "marker_time": 57840,
+    "type": "MAGE_5",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 69961,
+    "marker_time": 57960,
+    "type": "FLYING",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 70233,
+    "marker_time": 58080,
+    "type": "GROUND",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 70362,
+    "marker_time": 58320,
+    "type": "MAGE_8",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 70662,
+    "marker_time": 58547,
+    "type": "MAGE_3",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 71804,
+    "marker_time": 59760,
+    "type": "DOUBLE",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 72426,
+    "marker_time": 59880,
+    "type": "DOUBLE",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 72565,
+    "marker_time": 60000,
+    "type": "MAGE_5",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 72698,
+    "marker_time": 60240,
+    "type": "GROUND",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 72983,
+    "marker_time": 60480,
+    "type": "FLYING",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 73944,
+    "marker_time": 61440,
+    "type": "MAGE_2",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 75175,
+    "marker_time": 62160,
+    "type": "GROUND",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 75279,
+    "marker_time": 62280,
+    "type": "MAGE_8",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 75450,
+    "marker_time": 62400,
+    "type": "DOUBLE",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 76016,
+    "marker_time": 62880,
+    "type": "MAGE_4",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 76170,
+    "marker_time": 63120,
+    "type": "MAGE_8",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 76470,
+    "marker_time": 63360,
+    "type": "MAGE_7",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 78959,
+    "marker_time": 65280,
+    "type": "MAGE_8",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 81785,
+    "marker_time": 67200,
+    "type": "DOUBLE",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 90884,
+    "marker_time": 82320,
+    "type": "GROUND",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 97074,
+    "marker_time": 82440,
+    "type": "GROUND",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 97222,
+    "marker_time": 82560,
+    "type": "MAGE_3",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 99267,
+    "marker_time": 85200,
+    "type": "MAGE_2",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 99466,
+    "marker_time": 85320,
+    "type": "MAGE_2",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 99582,
+    "marker_time": 85440,
+    "type": "MAGE_5",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 99718,
+    "marker_time": 85920,
+    "type": "MAGE_4",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 100354,
+    "marker_time": 86400,
+    "type": "MAGE_7",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 100460,
+    "marker_time": 86640,
+    "type": "MAGE_5",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 100741,
+    "marker_time": 86760,
+    "type": "MAGE_5",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 100770,
+    "marker_time": 87000,
+    "type": "MAGE_7",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 100970,
+    "marker_time": 87120,
+    "type": "FLYING",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 101897,
+    "marker_time": 88320,
+    "type": "GROUND",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 102054,
+    "marker_time": 88560,
+    "type": "MAGE_3",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 102330,
+    "marker_time": 88680,
+    "type": "GROUND",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 102406,
+    "marker_time": 88920,
+    "type": "GROUND",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 102628,
+    "marker_time": 89040,
+    "type": "MAGE_3",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 102683,
+    "marker_time": 89280,
+    "type": "MAGE_7",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 103029,
+    "marker_time": 89520,
+    "type": "DOUBLE",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 103047,
+    "marker_time": 89760,
+    "type": "MAGE_2",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 103259,
+    "marker_time": 90000,
+    "type": "FLYING",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 103484,
+    "marker_time": 90240,
+    "type": "FLYING",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 104640,
+    "marker_time": 91920,
+    "type": "MAGE_4",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 105039,
+    "marker_time": 92040,
+    "type": "MAGE_3",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 105187,
+    "marker_time": 92160,
+    "type": "MAGE_8",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 105811,
+    "marker_time": 92880,
+    "type": "MAGE_5",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 106202,
+    "marker_time": 93360,
+    "type": "MAGE_3",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 106234,
+    "marker_time": 93840,
+    "type": "MAGE_2",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 106691,
+    "marker_time": 94080,
+    "type": "MAGE_5",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 108248,
+    "marker_time": 96480,
+    "type": "MAGE_7",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 108828,
+    "marker_time": 96720,
+    "type": "MAGE_5",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 109319,
+    "marker_time": 97200,
+    "type": "MAGE_2",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 109776,
+    "marker_time": 97680,
+    "type": "MAGE_3",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 109929,
+    "marker_time": 97920,
+    "type": "FLYING",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 110022,
+    "marker_time": 97980,
+    "type": "FLYING",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 110419,
+    "marker_time": 98400,
+    "type": "MAGE_5",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 110419,
+    "marker_time": 98640,
+    "type": "DOUBLE",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 111730,
+    "marker_time": 100560,
+    "type": "MAGE_4",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 112214,
+    "marker_time": 100680,
+    "type": "DOUBLE",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 112357,
+    "marker_time": 100800,
+    "type": "MAGE_2",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 112429,
+    "marker_time": 101160,
+    "type": "MAGE_4",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 112998,
+    "marker_time": 101520,
+    "type": "MAGE_8",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 113010,
+    "marker_time": 101760,
+    "type": "MAGE_8",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 113264,
+    "marker_time": 102480,
+    "type": "MAGE_2",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 114546,
+    "marker_time": 103680,
+    "type": "FLYING",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 114804,
+    "marker_time": 104040,
+    "type": "FLYING",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 115133,
+    "marker_time": 104400,
+    "type": "MAGE_8",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 115453,
+    "marker_time": 104640,
+    "type": "MAGE_2",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 115866,
+    "marker_time": 105000,
+    "type": "FLYING",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 116186,
+    "marker_time": 105360,
+    "type": "MAGE_4",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 116397,
+    "marker_time": 105606,
+    "type": "MAGE_8",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 116402,
+    "marker_time": 107334,
+    "type": "MAGE_2",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 117892,
+    "marker_time": 107430,
+    "type": "GROUND",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 117971,
+    "marker_time": 107533,
+    "type": "DOUBLE",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 119306,
+    "marker_time": 109216,
+    "type": "MAGE_3",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 119401,
+    "marker_time": 109305,
+    "type": "DOUBLE",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 119485,
+    "marker_time": 109395,
+    "type": "MAGE_2",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 120815,
+    "marker_time": 111072,
+    "type": "MAGE_2",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 120942,
+    "marker_time": 111187,
+    "type": "MAGE_5",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 121069,
+    "marker_time": 111309,
+    "type": "MAGE_2",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 121191,
+    "marker_time": 111648,
+    "type": "MAGE_5",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 121456,
+    "marker_time": 112038,
+    "type": "MAGE_2",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 121758,
+    "marker_time": 112518,
+    "type": "DOUBLE",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 122194,
+    "marker_time": 112774,
+    "type": "FLYING",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 122385,
+    "marker_time": 113030,
+    "type": "FLYING",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 122756,
+    "marker_time": 113267,
+    "type": "MAGE_7",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 122760,
+    "marker_time": 114509,
+    "type": "MAGE_4",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 123814,
+    "marker_time": 114925,
+    "type": "FLYING",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 124169,
+    "marker_time": 115232,
+    "type": "MAGE_4",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 124838,
+    "marker_time": 115923,
+    "type": "MAGE_4",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 124965,
+    "marker_time": 116352,
+    "type": "FLYING",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 125321,
+    "marker_time": 116601,
+    "type": "MAGE_2",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 125570,
+    "marker_time": 116845,
+    "type": "FLYING",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 125766,
+    "marker_time": 117107,
+    "type": "MAGE_7",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 127596,
+    "marker_time": 119469,
+    "type": "MAGE_5",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 127910,
+    "marker_time": 119731,
+    "type": "MAGE_2",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 128153,
+    "marker_time": 120217,
+    "type": "MAGE_8",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 128547,
+    "marker_time": 120461,
+    "type": "FLYING",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 128764,
+    "marker_time": 120697,
+    "type": "MAGE_8",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 129136,
+    "marker_time": 120966,
+    "type": "MAGE_4",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 129152,
+    "marker_time": 122688,
+    "type": "MAGE_2",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 130653,
+    "marker_time": 122771,
+    "type": "MAGE_4",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 130701,
+    "marker_time": 122867,
+    "type": "MAGE_8",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 132051,
+    "marker_time": 124601,
+    "type": "MAGE_5",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 132173,
+    "marker_time": 124704,
+    "type": "MAGE_8",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 132290,
+    "marker_time": 124793,
+    "type": "GROUND",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 132369,
+    "marker_time": 125990,
+    "type": "DOUBLE",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 133353,
+    "marker_time": 126201,
+    "type": "MAGE_7",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 133533,
+    "marker_time": 126438,
+    "type": "MAGE_2",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 133719,
+    "marker_time": 126688,
+    "type": "FLYING",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 133990,
+    "marker_time": 127174,
+    "type": "GROUND",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 134341,
+    "marker_time": 127661,
+    "type": "MAGE_5",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 134739,
+    "marker_time": 128134,
+    "type": "MAGE_3",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 135132,
+    "marker_time": 128614,
+    "type": "FLYING",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 135519,
+    "marker_time": 129305,
+    "type": "MAGE_2",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 136764,
+    "marker_time": 130285,
+    "type": "MAGE_4",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 136998,
+    "marker_time": 130547,
+    "type": "MAGE_4",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 137109,
+    "marker_time": 131001,
+    "type": "DOUBLE",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 137497,
+    "marker_time": 131251,
+    "type": "FLYING",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 138065,
+    "marker_time": 131763,
+    "type": "MAGE_5",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 138336,
+    "marker_time": 132198,
+    "type": "MAGE_5",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 138479,
+    "marker_time": 134112,
+    "type": "DOUBLE",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 140156,
+    "marker_time": 134233,
+    "type": "MAGE_8",
+    "boss": true,
+    "marker": true
+  },
+  {
+    "time": 140203,
+    "marker_time": 134355,
+    "type": "MAGE_7",
+    "boss": true,
+    "marker": true
+  }
+]

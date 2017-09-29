@@ -90,7 +90,7 @@ public class Song_Data {
                 if (ShortMessage.NOTE_ON == msg.getCommand()) {
                     try {
                         if (msg.getData1() == 64) { //E5 to enable boss section
-                            boss = true;
+                            boss = !boss;
                         } else {
                             el.add(new Enemy(msg.getData1(), time_millis, -1, boss));
                         }
@@ -118,5 +118,5 @@ public class Song_Data {
             delta_millis = (delta_ticks * tick_us) / 1000;
             time_millis += delta_millis;
         }
-    }
+    }    
 }
