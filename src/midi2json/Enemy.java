@@ -13,17 +13,13 @@ public class Enemy {
 
     //private byte type;
     private final long time;
-    private final long marker_time;
     private final EnemyType type;
     private final boolean boss;
-    private final boolean marker;
 
-    public Enemy(int cod, long t, long m, boolean b) throws Exception {
+    public Enemy(int cod, long t, boolean b) throws Exception {
         time = t;
-        marker_time = m;
         type = this.getType(cod);
         boss = b;
-        marker = marker_time != -1;
     }
     
     private EnemyType getType(int c) throws Exception{
@@ -71,14 +67,6 @@ public class Enemy {
         return this.time;
     }
     
-    public long getMarkerTime(){
-        return this.marker_time;
-    }
-    
-    public boolean isMarker(){
-        return this.marker_time != -1;
-    }
-    
     public boolean isBoss(){
         return boss;
     }
@@ -86,7 +74,6 @@ public class Enemy {
     @Override
     public String toString(){
         return "Enemy Type: " + this.type.name() + "\nCode: " + this.type.getCode() + 
-                "\nArrival Time: " + this.time + "\nMarker: " + marker +
-                "\nMarker time: " + this.marker_time;
+                "\nArrival Time: " + this.time;
     }
 }

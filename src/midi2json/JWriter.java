@@ -18,13 +18,13 @@ import java.util.List;
  */
 public class JWriter {
 
-    private final List<Enemy> enemy_list;
+    private final List<Object> event_list;
     private final Gson data;
     private final String out_path;
     private final String output;
 
-    public JWriter(List<Enemy> l, String str) {
-        this.enemy_list = l;
+    public JWriter(List<Object> l, String str) {
+        this.event_list = l;
         this.data = new GsonBuilder().setPrettyPrinting().create();
         this.output = this.data.toJson(l);
         this.out_path = str;
