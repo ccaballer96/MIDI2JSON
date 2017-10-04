@@ -22,7 +22,8 @@ import javax.sound.midi.Track;
  */
 public class Song_Data {
 
-    private final List<Object> list;
+    private final List<Enemy> enemyList;
+    private final List<Marker> markerList;
     private int bpm, tempo;
     private final int ppq;
     private final Sequence song;
@@ -32,12 +33,14 @@ public class Song_Data {
         ppq = seq.getResolution();
         tempo = 500000; //default tempo
         bpm = 120;      //default BPM
-        list = makeLevel(seq);
-        setMarkerDest(list); //update marker destinations
+        enemyList = new ArrayList<>();
+        markerList = new ArrayList<>();
+        makeLevel(seq);
+        setMarkerDest(); //update marker destinations
     }
 
-    public List<Object> getList() {
-        return list;
+    public List<Enemy> getEnemyList() {
+        return enemyList;
     }
 
     public final int getPPQ() {
@@ -48,23 +51,25 @@ public class Song_Data {
         return song;
     }
 
+    public List<Marker> getMarkerList() {
+        return markerList;
+    }
+
     // Returns a list of Enemy with Type, Arrival Time (in miliseconds) and Marker.
-    private List<Object> makeLevel(Sequence s) {
+    private void makeLevel(Sequence s) {
         /*
-        Create list for enemies and initialize variables. Because tempo events are stored in Track 1,
-        beat patterns are stored there as well to reduce complexity.
+        Create lists for enemies + markers and initialize variables. Tempo events are stored in Track 0 and
+        beat patterns are stored in the last track.
          */
-        List<Object> res = new ArrayList<>();
         Track[] tracks = s.getTracks();
-        List<MidiEvent> listaOrdenada = mergeTracks(tracks[0], tracks[tracks.length-1]);
+        List<MidiEvent> listaOrdenada = mergeTracks(tracks[0], tracks[tracks.length - 1]);
         Collections.sort(listaOrdenada, new Comparator<MidiEvent>() {
             @Override
             public int compare(MidiEvent e1, MidiEvent e2) {
                 return (int) (e1.getTick() - e2.getTick());
             }
         });
-        extractData(res, listaOrdenada);
-        return res;
+        extractData(listaOrdenada);
     }
 
     private List<MidiEvent> mergeTracks(Track a, Track b) {
@@ -78,7 +83,7 @@ public class Song_Data {
         return res;
     }
 
-    private void extractData(List<Object> l, List<MidiEvent> me) {
+    private void extractData(List<MidiEvent> me) {
         long delta_ticks, last_event_ticks = 0;
         long tick_us, delta_millis, time_millis = 0;
         boolean boss = false;
@@ -92,7 +97,7 @@ public class Song_Data {
                         if (msg.getData1() == 64) { //E5 to enable boss section
                             boss = !boss;
                         } else {
-                            l.add(new Enemy(msg.getData1(), time_millis, boss));
+                            enemyList.add(new Enemy(msg.getData1(), time_millis, boss));
                         }
                     } catch (Exception e) {
                         System.out.println(e.getMessage());
@@ -111,7 +116,7 @@ public class Song_Data {
                 if (msg.getType() == 0x06) {
                     try {
                         //Extract marker name from bytes, with encoding UTF-8
-                        l.add(new Marker(new String(msg.getData(), "UTF-8"), time_millis));
+                        markerList.add(new Marker(new String(msg.getData(), "UTF-8"), time_millis));
                     } catch (UnsupportedEncodingException e) {
                         e.printStackTrace();
                     }
@@ -129,19 +134,12 @@ public class Song_Data {
         }
     }
 
-    private void setMarkerDest(List<Object> list) {
-        for (Object obx : list) {
-            if (obx instanceof Marker) {
-                Marker aux1 = (Marker) obx;
-                if (aux1.getName().startsWith("Goto_")) {
-                    for (int i = 0; i < list.size(); i++) {
-                        if (list.get(i) instanceof Marker) {
-                            Marker aux2 = (Marker) list.get(i);
-                            if (aux2.getName().equals(aux1.getName().substring(5))) {
-                                aux1.setDest(i);
-                                aux1.setDestTime(aux2.getTime());
-                            }
-                        }
+    private void setMarkerDest() {
+        for (Marker m1 : markerList) {
+            if (m1.getName().startsWith("Goto_")) {
+                for (Marker m2 : markerList) {
+                    if (m2.getName().equals(m1.getName().substring(5))) {
+                        m1.setDestTime(m2.getTime());
                     }
                 }
             }

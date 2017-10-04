@@ -14,25 +14,19 @@ public class Marker {
     private final String name;
     private final long time;
     private long dest_time;
-    private int dest;
 
     public long getDest_time() {
         return dest_time;
     }
-
-    public int getDest() {
-        return dest;
-    }
     
     public Marker(String name, long time){
-        this(name, time, -1, -1);
+        this(name, time, -1);
     }
 
-    public Marker(String name, long time, long dest_time, int dest) {
+    public Marker(String name, long time, long dest_time) {
         this.name = name;
         this.time = time;
         this.dest_time = dest_time;
-        this.dest = dest;
     }
 
     public String getName() {
@@ -41,10 +35,6 @@ public class Marker {
 
     public long getTime() {
         return time;
-    }
-    
-    public void setDest(int dest){
-        this.dest = dest;
     }
     
     public void setDestTime(long dest_time){

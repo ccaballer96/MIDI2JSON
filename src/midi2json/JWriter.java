@@ -18,15 +18,18 @@ import java.util.List;
  */
 public class JWriter {
 
-    private final List<Object> event_list;
+    private final List<Enemy> event_list;
+    private final List<Marker> marker_list;
     private final Gson data;
     private final String out_path;
-    private final String output;
+    private String output;
 
-    public JWriter(List<Object> l, String str) {
+    public JWriter(List<Enemy> l, List<Marker> m, String str) {
         this.event_list = l;
+        this.marker_list = m;
+        Object[] aux = {l,m};
         this.data = new GsonBuilder().setPrettyPrinting().create();
-        this.output = this.data.toJson(l);
+        this.output = this.data.toJson(aux);
         this.out_path = str;
     }
 
